@@ -55,10 +55,10 @@
 
       <!-- Actions -->
       <transition name="fade" appear>
-        <div
-          v-show="showActions"
-          class="flex flex-col sm:flex-row justify-center gap-6 mt-6 min-h-[72px]"
-        >
+       <div
+  v-show="showActions"
+  class="flex flex-row justify-center gap-6 mt-6"
+>
           <!-- Feed Button -->
           <button
             @click="feedCat"
