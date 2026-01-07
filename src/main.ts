@@ -2,6 +2,7 @@ import router from '@/router'
 import { createHead } from '@unhead/vue/client'
 import { createPinia } from 'pinia'
 import { createApp, markRaw } from 'vue'
+import { inject } from '@vercel/analytics'
 import App from './App.vue'
 
 import '@/assets/base.css'
@@ -18,3 +19,5 @@ app.use(router)
 app.use(head)
 
 app.mount('#app')
+
+inject()
