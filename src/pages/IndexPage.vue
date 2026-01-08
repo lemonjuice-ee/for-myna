@@ -1,8 +1,9 @@
 <template>
-  <section
-     class="min-h-screen font-cute bg-cover bg-center text-black relative flex items-center justify-center"
+<section
+  class="min-h-screen font-cute bg-cover bg-center text-black relative flex flex-col items-center justify-center sm:justify-center pt-6 sm:pt-0"
   style="background-image: url('/bg.png')"
-  >
+>
+
     <!-- Background blur overlay -->
     <div class="absolute inset-0 backdrop-blur-[2px] bg-white/10"></div>
 
@@ -54,6 +55,7 @@
     alt="Cute Cat"
   />
 </div>
+
       <!-- Actions -->
       <transition name="fade" appear>
 <div
