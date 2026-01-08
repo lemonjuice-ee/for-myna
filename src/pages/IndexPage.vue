@@ -41,19 +41,19 @@
       </p>
 
       <!-- Cat -->
-      <div class="relative mb-10">
-       <img
-  ref="catEl"
-  :src="catImage"
-  :class="[
-    'mx-auto w-80 transition-all duration-500 rounded-xl',
-    isHappy && 'scale-105',
-    showPulse && 'animate-bounce-pulse'
-  ]"
-  alt="Cute Cat"
-/>
-      </div>
-
+<div class="relative mb-10">
+  <img
+    ref="catEl"
+    :src="catImage"
+    :class="[
+      'mx-auto transition-all duration-500 rounded-xl',
+      'w-60 sm:w-80', // smaller on mobile, default to 80 on sm and above
+      isHappy && 'scale-105',
+      showPulse && 'animate-bounce-pulse'
+    ]"
+    alt="Cute Cat"
+  />
+</div>
       <!-- Actions -->
       <transition name="fade" appear>
 <div
