@@ -1,6 +1,6 @@
 <template>
 <section
-  class="min-h-screen font-cute bg-cover bg-center text-black relative flex flex-col items-center justify-center sm:justify-center pt-6 sm:pt-0"
+  class="min-h-screen font-cute bg-cover bg-center text-black relative flex flex-col items-center justify-center sm:justify-center pt-1 sm:pt-0"
   style="background-image: url('/bg.png')"
 >
 
@@ -31,16 +31,6 @@
         alt="A Little Dopamine for Myna"
         class="mx-auto w-full max-w-[900px] md:max-w-[1100px] lg:max-w-[1300px]"
       />
-
-      <p class="text-gray-700 flex items-center justify-center gap-2
-                drop-shadow-[0_1px_0_#fde7f3]
-                drop-shadow-[1px_0_0_#fde7f3]
-                drop-shadow-[-1px_0_0_#fde7f3]
-                drop-shadow-[0_-1px_0_#fde7f3]">
-        Because you deserve something soft, cute, and happy today
-        <img src="/paws.png" alt="Paw Icon" class="w-6 h-6" />
-      </p>
-
       <!-- Cat -->
 <div class="relative mb-10">
   <img
@@ -117,7 +107,7 @@
 
   <!-- Secret message -->
   <div v-else class="bg-[#fdf5c9] border-4 border-[#6b3e26] rounded-xl p-6 max-w-lg w-full shadow-lg flex flex-col items-center relative">
-<img src="/me.JPG" class="w-60 h-60 rounded-full mx-auto mb-4 object-cover" /> <h2 class="text-2xl font-bold mb-2 text-center">Hey, it&apos;s Fritz</h2> <p class="text-gray-500 mb-4 text-center"> I made this just for you, hope it made you smile! 💗 </p> <p class="text-gray-500 mb-6 text-center"> If you see this and liked it… maybe check out <a href="https://www.instagram.com/lemonjuice_ee/" target="_blank" class="text-pink-600 hover:underline font-semibold">My IG</a> ? </p> <div class="flex justify-center mb-2"> <button @click="alert('Yay! Let’s squad up in Mobile Legends 😎')" class="bg-yellow-400 hover:bg-yellow-500 px-6 py-2 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all" > Play Mobile Legends with me? 🎮 </button> </div> <div class="flex items-center justify-center mb-6 gap-2"> <p class="text-gray-500 text-center font-semibold"> LemonJuicee: <span id="ml-number">43826446</span> </p> <button @click="copyNumber" class="bg-blue-400 px-3 py-1 rounded-lg text-sm transition-colors" > Copy </button> </div> <div class="flex justify-end"> <button @click="showSecret = false" class="bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded-lg" > Close </button>
+<img src="/me.JPG" class="w-60 h-60 rounded-full mx-auto mb-4 object-cover" /> <h2 class="text-2xl font-bold mb-2 text-center">Hey, it&apos;s Fritz</h2> <p class="text-gray-500 mb-4 text-center"> I made this just for you because you deserve something soft and cute today, hope it made you smile! 💗 </p> <p class="text-gray-500 mb-6 text-center"> If you see this and liked it… maybe check out <a href="https://www.instagram.com/lemonjuice_ee/" target="_blank" class="text-pink-600 hover:underline font-semibold">My IG</a> ? </p> <div class="flex justify-center mb-2"> <button @click="alert('Yay! Let’s squad up in Mobile Legends 😎')" class="bg-yellow-400 hover:bg-yellow-500 px-6 py-2 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all" > Play Mobile Legends with me? 🎮 </button> </div> <div class="flex items-center justify-center mb-6 gap-2"> <p class="text-gray-500 text-center font-semibold"> LemonJuicee: <span id="ml-number">43826446</span> </p> <button @click="copyNumber" class="bg-blue-400 px-3 py-1 rounded-lg text-sm transition-colors" > Copy </button> </div> <div class="flex justify-end"> <button @click="showSecret = false" class="bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded-lg" > Close </button>
     </div>
   </div>
 </div>
