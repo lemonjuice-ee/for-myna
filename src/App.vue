@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Analytics } from '@vercel/analytics/vue'
+
 // See vite.config.ts for details about automatic imports
 const route = useRoute()
 
@@ -18,4 +20,5 @@ useHead({
 </script>
 <template>
   <router-view />
+  <Analytics />
 </template>
